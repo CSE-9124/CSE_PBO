@@ -25,7 +25,7 @@ public class Task03_Method_KonverseDate {
 
         switch (bulan) {
             case "01":
-                bulan = new String("Januari");
+                bulan = "Januari";
                 break;
             case "02":
                 bulan = new String("Febuari");

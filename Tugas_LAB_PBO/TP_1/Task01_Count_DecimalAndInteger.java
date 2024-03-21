@@ -10,18 +10,18 @@ public class Task01_Count_DecimalAndInteger {
         try {
             int n = input.nextInt();
     
-            int banyak_Bulat = 0;
-            int banyak_Decimal = 0;
+            int banyakBulat = 0;
+            int banyakDecimal = 0;
     
             for (int i = 0; i < n; i++) {
                 try {
                     double bilangan = input.nextDouble();
 
                     if (bilangan % 1 == 0) {
-                        banyak_Bulat++;
+                        banyakBulat++;
                     }
                     else {
-                        banyak_Decimal++;
+                        banyakDecimal++;
                     }
 
                 } catch (Exception e) {
@@ -30,8 +30,7 @@ public class Task01_Count_DecimalAndInteger {
                 }
             }
 
-            System.out.println("\n" + banyak_Bulat + " Bilangan Bulat");
-            System.out.println(banyak_Decimal + " Bilangan Desimal");
+            System.out.println("\n" + banyakBulat + " Bilangan Bulat\n" + banyakDecimal + " Bilangan Desimal");
             
             input.close();
 

@@ -17,9 +17,9 @@ public class Task02_Change_FirstWordIntoKapital {
 
     // Method
     public static void CapitalFirstWord(String film) {
-        String[] Words = film.split(" ");
+        String[] words = film.split(" ");
 
-        for (String kata : Words) {
+        for (String kata : words) {
             char firstChar = Character.toUpperCase(kata.charAt(0));
             String restWord = kata.substring(1).toLowerCase();
 
