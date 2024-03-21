@@ -20,6 +20,6 @@ public class Mobil extends Kendaraan {
     }
 
     void kapasitas() {
-        System.out.println("");
+        System.out.println("Kendaraan ini berkapasitas " + this.kapasitas);
     }
 }

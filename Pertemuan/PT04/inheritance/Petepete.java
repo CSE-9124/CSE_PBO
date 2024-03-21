@@ -10,5 +10,6 @@ public class Petepete extends Mobil {
         kosong5.kapasitas = 10;
 
         kosong5.cetak();
+        kosong5.kapasitas();
     }
 }

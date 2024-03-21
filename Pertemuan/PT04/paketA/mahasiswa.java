@@ -25,12 +25,12 @@ public class mahasiswa {
 
     void cekIPK() {
         if (ipk > 3){
-            System.out.println("Baik");
+            System.out.println("IPK " + nama + " Baik");
         } else if (ipk > 2 && ipk < 3) {
-            System.out.println("cukup");
+            System.out.println("IPK" + nama + " cukup");
         } else {
-            System.out.println("Kurang");
+            System.out.println("IPK " + nama + " Kurang");
         }
     }
-
+    
 }
