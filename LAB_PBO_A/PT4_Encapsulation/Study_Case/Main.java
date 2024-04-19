@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.Study_Case;
+package LAB_PBO_A.PT4_Encapsulation.Study_Case;
 
 public class Main {
     public static void main(String[] args) {

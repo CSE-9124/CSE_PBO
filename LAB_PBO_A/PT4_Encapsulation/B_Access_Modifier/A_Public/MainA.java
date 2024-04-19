@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.B_Access_Modifier.A_Public;
+package LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.A_Public;
 
 // 1. Public
 /* Access modifier yang paling umum digunakan dan memungkinakan variabel, method,

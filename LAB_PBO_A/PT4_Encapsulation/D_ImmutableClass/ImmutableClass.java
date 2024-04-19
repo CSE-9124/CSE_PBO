@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.D_ImmutableClass;
+package LAB_PBO_A.PT4_Encapsulation.D_ImmutableClass;
 
 /* Immutable class adalah class di java yang tidak bisa diubah setelah dibuat */
 

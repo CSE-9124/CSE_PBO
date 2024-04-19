@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.B_Access_Modifier.D_Private;
+package LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.D_Private;
 
 final class Laptop {
     private String processor;

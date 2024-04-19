@@ -1,10 +1,6 @@
-package LAB_PBO_A.PT4_.B_Access_Modifier.B_Default;
+package LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.B_Default;
 
-// 2. Default Modifier
-/* Access modifier yang tidak menggunakan kata kunci access modifier
-dan hanya dapat diakses dari kelas yang berbeda dalam package yang sama */
-
-import LAB_PBO_A.PT4_.B_Access_Modifier.B_Default.TesB.CarB;
+import LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.B_Default.TesB.CarB;
 
 class Kendaraan {
     String merek;

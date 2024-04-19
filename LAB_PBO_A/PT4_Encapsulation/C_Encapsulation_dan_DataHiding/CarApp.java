@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.C_Encapdulation_dan_DataHiding;
+package LAB_PBO_A.PT4_Encapsulation.C_Encapsulation_dan_DataHiding;
 
 public class CarApp {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.B_Access_Modifier.C_Protected;
+package LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.C_Protected;
 
 // 2. Protected
 /*acces modifier yang memungkinkan variabel, method, atau kelas dapat

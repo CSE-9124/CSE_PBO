@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.D_ImmutableClass;
+package LAB_PBO_A.PT4_Encapsulation.D_ImmutableClass;
 
 public class Main {
     public static void main(String[] args) {

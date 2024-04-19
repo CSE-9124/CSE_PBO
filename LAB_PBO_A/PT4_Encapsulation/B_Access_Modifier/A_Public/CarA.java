@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.B_Access_Modifier.A_Public;
+package LAB_PBO_A.PT4_Encapsulation.B_Access_Modifier.A_Public;
 
 public class CarA {
     public String brand;

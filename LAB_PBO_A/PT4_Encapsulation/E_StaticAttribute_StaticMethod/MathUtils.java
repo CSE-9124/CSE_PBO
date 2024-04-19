@@ -1,4 +1,4 @@
-package LAB_PBO_A.PT4_.E_StaticAttribute_StaticMethod;
+package LAB_PBO_A.PT4_Encapsulation.E_StaticAttribute_StaticMethod;
 
 /* Static attribut/method dapat diakses dan dimodifikasi tanpa
 membuat instance baru dari kelas tersebut */
