@@ -1,6 +1,6 @@
 package Latihan;
 
-public class Main {
+public class Main1 {
     // Blok Utama
     public static void main(String[] args) {
         /* The code below will print the words Hello World
