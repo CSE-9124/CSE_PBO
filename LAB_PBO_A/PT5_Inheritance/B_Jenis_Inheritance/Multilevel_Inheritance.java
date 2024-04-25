@@ -2,19 +2,19 @@ package LAB_PBO_A.PT5_Inheritance.B_Jenis_Inheritance;
 
 /* Ketika ada rantai warisan, itu dikenal sebagai inheritance multilevel */
 
-class Animal {
+class Reptil {
     void eat() {
         System.out.println("eating...");
     }
 }
 
-class Dog extends Animal {
+class Komodo extends Reptil {
     void bark() {
         System.out.println("barking...");
     }
 }
 
-class BabyDog extends Dog {
+class Lizard extends Komodo {
     void weep() {
         System.out.println("weeping...");
     }
@@ -22,7 +22,7 @@ class BabyDog extends Dog {
 
 public class Multilevel_Inheritance {
     public static void main(String[] args) {
-        BabyDog d = new BabyDog();
+        Lizard d = new Lizard();
         d.weep();
         d.bark();
         d.eat();
