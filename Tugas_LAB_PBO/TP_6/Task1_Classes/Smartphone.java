@@ -1,6 +1,6 @@
-package Tugas_LAB_PBO.TP_6;
+package Tugas_LAB_PBO.TP_6.Task1_Classes;
 
-public class Smartphone implements Mystery {
+public class Smartphone implements IMystery {
     int price;
     String brand;
 
@@ -9,8 +9,9 @@ public class Smartphone implements Mystery {
         this.brand = brand;
     }
 
+    @Override
     public void move() {
-        System.out.println("Mobil sedang berakselerasi");
+        System.out.println("Smartphone berpindah");
     }
 
     public int getPrice() {

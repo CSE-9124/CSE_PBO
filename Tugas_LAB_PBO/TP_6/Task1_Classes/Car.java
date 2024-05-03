@@ -1,6 +1,6 @@
-package Tugas_LAB_PBO.TP_6;
+package Tugas_LAB_PBO.TP_6.Task1_Classes;
 
-public class Car implements Mystery {
+public class Car implements IMystery {
     int totalForwardGear;
     String color;
     int maxSpeed;
@@ -11,6 +11,7 @@ public class Car implements Mystery {
         this.maxSpeed = maxSpeed;
     }
 
+    @Override
     public void move() {
         System.out.println("Mobil sedang berakselerasi");
     }

@@ -1,8 +1,8 @@
-package Tugas_LAB_PBO.TP_6.Dog;
+package Tugas_LAB_PBO.TP_6.Task1_Classes.Dog;
 
-import Tugas_LAB_PBO.TP_6.Mystery; 
+import Tugas_LAB_PBO.TP_6.Task1_Classes.IMystery; 
 
-abstract class Dog implements Mystery {
+abstract class Dog implements IMystery {
     int position, averageLength;
     
     public Dog(int position, int averageLength) {

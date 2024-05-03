@@ -1,4 +1,4 @@
-package Tugas_LAB_PBO.TP_6.Dog;
+package Tugas_LAB_PBO.TP_6.Task1_Classes.Dog;
 
 public class GermanShepherd extends Dog{
 
