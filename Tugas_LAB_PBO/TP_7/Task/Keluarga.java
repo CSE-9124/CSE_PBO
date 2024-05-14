@@ -23,7 +23,7 @@ public class Keluarga {
                 Start.Line("~", 50);
                 System.out.println(" ".repeat(5) + "Invalid Input: Silakan Input Nikah/Belum" + " ".repeat(5));
                 Start.Line("~", 50);
-                Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
             }
         }
     }

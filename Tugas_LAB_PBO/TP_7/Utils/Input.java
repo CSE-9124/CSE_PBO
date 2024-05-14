@@ -14,13 +14,13 @@ public class Input {
                     Start.Line("~", 50);
                     System.out.println(" ".repeat(13) + "Input tidak boleh kosong" + " ".repeat(13));
                     Start.Line("~", 50);
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                 } else {
                     if (input.matches(".*\\d.*")) {
                         Start.Line("~", 50);
                         System.out.println(" ".repeat(8) + "Input tidak boleh mengandung angka" + " ".repeat(8));
                         Start.Line("~", 50);
-                        Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                        Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                     } else {
                         break;
                     }
@@ -39,7 +39,7 @@ public class Input {
                 Start.Line("~", 50);
                 System.out.println(" ".repeat(13) + "Input tidak boleh kosong" + " ".repeat(13));
                 Start.Line("~", 50);
-                Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
             } else {
                 try {
                     angka = Integer.parseInt(input);
@@ -47,7 +47,7 @@ public class Input {
                         Start.Line("~", 50);
                         System.out.println(" ".repeat(3) + "Input Tidak Boleh Negatif ataupun Bernilai 0" + " ".repeat(3));
                         Start.Line("~", 50);
-                        Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                        Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                     }
                     else{
                         break;
@@ -56,7 +56,7 @@ public class Input {
                     Start.Line("~", 50);
                     System.out.println(" ".repeat(4) + "Terjadi error karena, Inputan harus angka" + " ".repeat(5));
                     Start.Line("~", 50);
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                 }
             }
         }
@@ -73,13 +73,13 @@ public class Input {
                 Start.Line("~", 50);
                 System.out.println(" ".repeat(13) + "Input tidak boleh kosong" + " ".repeat(13));
                 Start.Line("~", 50);
-                Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
             } else {
                 if (!input.matches("SD|SMP|SMA|SMK|S1|S2|S3")) {
                     Start.Line("~", 50);
                     System.out.println(" ".repeat(3) + "Input tidak sesuai dengan pilihan pendidikan" + " ".repeat(3));
                     Start.Line("~", 50);
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                 } else {
                     break;
                 }

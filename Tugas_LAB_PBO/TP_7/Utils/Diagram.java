@@ -16,7 +16,7 @@ public class Diagram {
             public void paintComponent(Graphics g) {
                 super.paintComponent(g);
                 if (backgroundImage == null) {
-                    ImageIcon imageIcon = new ImageIcon("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Diagram.png");
+                    ImageIcon imageIcon = new ImageIcon("Tugas_LAB_PBO\\TP_7\\Diagram.png");
                     backgroundImage = imageIcon.getImage();
                 }
                 g.drawImage(backgroundImage, 0, 0, getWidth(), getHeight(), this);

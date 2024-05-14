@@ -39,13 +39,13 @@ public class KaryawanApp {
             Start.Line("=", 50);
             System.out.println(" ".repeat(14) + "SELAMAT ANDA DITERIMA" + " ".repeat(15));
             Start.Line("=", 50);
-            Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Congratulation.wav");
+            Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Congratulation.wav");
             daftarKaryawan.add(karyawan);
         } else {
             Start.Line("=", 50);
             System.out.println(" ".repeat(10) + "KARYAWAN TIDAK MEMENUHI SYARAT" + " ".repeat(10));
             Start.Line("=", 50);
-            Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\FailedSound.wav");
+            Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\FailedSound.wav");
         }
     }
 
@@ -75,7 +75,7 @@ public class KaryawanApp {
                 Start.Line("~", 50);
                 System.out.println(" ".repeat(2) + "Invalid Input: Silakan Input angka 1 hingga 4" + " ".repeat(3));
                 Start.Line("~", 50);
-                Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
             }
         } while (inPengalaman > 4);
 
@@ -113,7 +113,7 @@ public class KaryawanApp {
                 Start.Line("~", 50);
                 System.out.println(" ".repeat(2) + "Invalid Input: Silakan Input angka 1 hingga 4" + " ".repeat(3));
                 Start.Line("~", 50);
-                Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
             }
         } while (inProjek > 4);
 
@@ -158,20 +158,20 @@ public class KaryawanApp {
             Start.Line("~", 50);
             System.out.println(" ".repeat(8) + "Belum ada karyawan yang diundang" + " ".repeat(8));
             Start.Line("~", 50);
-            Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+            Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
         } else {
             for (Karyawan karyawan : daftarKaryawan) {
                 karyawan.displayInfo();
                 System.out.println();
             }
             Start.Line("-", 50);
-            Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\ohmygah.wav");
+            Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\ohmygah.wav");
         }
     }
 
     // Method Main (Run Terminal)
     public static void main(String[] args) {
-        Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Tuturu.wav");
+        Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Tuturu.wav");
         while (true) {
             Start.clear();
             tampilkanMenu();
@@ -187,21 +187,21 @@ public class KaryawanApp {
                     runTampilkanDetailKaryawan();
                     break;
                 case "c":
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\hehebuoi.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\hehebuoi.wav");
                     Diagram.TampilkanMenu();
                     break;
                 case "d":
                     Start.Line("=", 50);
                     System.out.println(" Terima Kasih Telah Menggunakan Aplikasi Karyawan");
                     Start.Line("=", 50);
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Sayonara.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Sayonara.wav");
                     System.exit(0);
                 default:
                     Start.Line("=", 50);
                     Start.Line("~", 50);
                     System.out.println(" ".repeat(18) + "Invalid input" + " ".repeat(19));
                     Start.Line("~", 50);
-                    Audio.playAudio("D:\\College\\Season 2\\Pemrograman Berorientasi Objek\\Coding\\CSE_PBO\\Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
+                    Audio.playAudio("Tugas_LAB_PBO\\TP_7\\Audio\\Akh.wav");
                     break;
             }
         }
